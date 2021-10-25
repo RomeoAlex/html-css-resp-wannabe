@@ -71,6 +71,7 @@
   .clear {
     clear: both;
   }
+  /* SOLUZIONE */
 @media screen and (max-width: 420px) {
     .row {
         width: 90%;
@@ -89,5 +90,11 @@
       margin-top: 30px;
     display:block;
     width: 90%;
+  }
+  #lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
