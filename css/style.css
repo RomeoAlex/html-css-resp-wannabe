@@ -75,26 +75,23 @@
 @media screen and (max-width: 420px) {
     .row {
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
       }
       #lezioni .row>.left,
   #lezioni .row>.right {
     width: 90%;
     float: left;
   }
+  #lezioni .row>.right {
+    margin-top: 30px;
+  }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-      margin-top: 30px;
-    display:block;
     width: 90%;
   }
-  #lezioni .row img {
-    /* per centrare orizzontalmente */
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  #steps .row>.central,
+  #steps .row>.right {
+    margin-top: 30px;
   }
+
 }
