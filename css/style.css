@@ -72,11 +72,34 @@
     clear: both;
   }
   /* SOLUZIONE */
+  @media screen and (max-width: 750px) {
+    .row {
+        width: 100%;
+      }
+      #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 40%;
+    margin:0 30px;
+  }
+  
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 90%;
+    padding-left: 30px;
+  }
+  #steps .row>.central,
+  #steps .row>.right {
+    margin-top: 30px;
+  }
+
+}
+
 @media screen and (max-width: 420px) {
     .row {
         width: 90%;
       }
-      #lezioni .row>.left,
+    #lezioni .row>.left,
   #lezioni .row>.right {
     width: 90%;
   }
@@ -87,6 +110,7 @@
   #steps .row>.central,
   #steps .row>.right {
     width: 90%;
+    padding-left: 10px;
   }
   #steps .row>.central,
   #steps .row>.right {
@@ -94,3 +118,4 @@
   }
 
 }
+
