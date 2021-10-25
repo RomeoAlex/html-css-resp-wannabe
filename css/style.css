@@ -79,7 +79,6 @@
       #lezioni .row>.left,
   #lezioni .row>.right {
     width: 90%;
-    float: left;
   }
   #lezioni .row>.right {
     margin-top: 30px;
